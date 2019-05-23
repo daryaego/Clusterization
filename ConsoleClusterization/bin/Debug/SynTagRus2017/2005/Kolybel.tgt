@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<text ver="1.1">
+<inf>
+<date>16.10.2005</date>
+<editor>ЛЦ</editor>
+<source> «Семья», 2001.11.14</source>
+<title>Колыбель для тысячи детей </title>
+</inf>
+<body>
+<S ID="1">
+<W DOM="_root" FEAT="S ЕД ЖЕН ИМ НЕОД" ID="1" LEMMA="КОЛЫБЕЛЬ">КОЛЫБЕЛЬ</W> 
+<W DOM="1" FEAT="PR" ID="2" LEMMA="ДЛЯ" LINK="атриб">ДЛЯ</W> 
+<W DOM="2" FEAT="S ЕД ЖЕН РОД НЕОД" ID="3" LEMMA="ТЫСЯЧА" LINK="предл">ТЫСЯЧИ</W> 
+<W DOM="3" FEAT="S МН МУЖ РОД ОД" ID="4" LEMMA="РЕБЕНОК" LINK="квазиагент">ДЕТЕЙ</W> 
+</S>
+<S ID="2">
+<W DOM="_root" FEAT="S МН ИМ НЕОД" ID="1" KSNAME="США" LEMMA="США">США</W> 
+</S>
+<S ID="3">
+<W DOM="9" FEAT="S ЕД ЖЕН ТВОР НЕОД" ID="1" LEMMA="ВЕЛИЧИНА" LINK="атриб">Величиной</W> 
+<W DOM="1" FEAT="PR" ID="2" KSNAME="С2" LEMMA="С" LINK="атриб">со</W> 
+<W DOM="4" FEAT="A ЕД МУЖ ВИН НЕОД" ID="3" LEMMA="ШКОЛЬНЫЙ" LINK="опред">школьный</W> 
+<W DOM="2" FEAT="S ЕД МУЖ ВИН НЕОД" ID="4" LEMMA="АВТОБУС" LINK="предл">автобус</W>, 
+<W DOM="9" FEAT="A ЕД ЖЕН ИМ" ID="5" KSNAME="ЭТОТ" LEMMA="ЭТОТ" LINK="опред">эта</W> 
+<W DOM="7" FEAT="A ЕД ЖЕН ИМ" ID="6" KSNAME="САМЫЙ" LEMMA="САМЫЙ" LINK="опред">самая</W> 
+<W DOM="9" FEAT="A ЕД ЖЕН ИМ" ID="7" LEMMA="БОЛЬШОЙ" LINK="опред">большая</W> 
+<W DOM="9" FEAT="A ЕД ЖЕН ИМ" ID="8" KSNAME="ДЕТСКИЙ" LEMMA="ДЕТСКИЙ" LINK="опред">детская</W> 
+<W DOM="10" FEAT="S ЕД ЖЕН ИМ НЕОД" ID="9" LEMMA="КРОВАТКА" LINK="предик">кроватка</W> 
+<W DOM="_root" FEAT="V НЕСОВ ИЗЪЯВ НЕПРОШ ЕД 3-Л" ID="10" LEMMA="МОЧЬ">может</W> 
+<W DOM="10" FEAT="V СОВ ИНФ" ID="11" LEMMA="ВМЕЩАТЬ" LINK="1-компл">вместить</W> 
+<W DOM="11" FEAT="ADV" ID="12" LEMMA="БОЛЕЕ" LINK="1-компл">более</W> 
+<W DOM="12" FEAT="S ЕД ЖЕН РОД НЕОД" ID="13" LEMMA="ТЫСЯЧА" LINK="сравнит">тысячи</W> 
+<W DOM="13" FEAT="S МН ЖЕН РОД ОД" ID="14" LEMMA="ДЕТИШКИ" LINK="квазиагент">детишек</W>. 
+</S>
+<S ID="4">
+<W DOM="3" FEAT="A ЕД ЖЕН ИМ" ID="1" KSNAME="ЭТОТ" LEMMA="ЭТОТ" LINK="опред">Эта</W> 
+<W DOM="3" FEAT="A ЕД ЖЕН ИМ" ID="2" LEMMA="НЕОБЫЧНЫЙ" LINK="опред">необычная</W> 
+<W DOM="4" FEAT="S ЕД ЖЕН ИМ НЕОД" ID="3" LEMMA="КОЛЫБЕЛЬ" LINK="предик">колыбель</W> 
+<W DOM="_root" FEAT="V НЕСОВ ИЗЪЯВ ПРОШ ЕД ЖЕН" ID="4" KSNAME="БЫТЬ" LEMMA="БЫТЬ">была</W> 
+<W DOM="4" FEAT="V СОВ СТРАД ПРИЧ ПРОШ КР ЕД ЖЕН" ID="5" KSNAME="ВЫСТАВЛЯТЬ1" LEMMA="ВЫСТАВЛЯТЬ" LINK="пасс-анал">выставлена</W> 
+<W DOM="5" FEAT="PR" ID="6" KSNAME="В2" LEMMA="В" LINK="2-компл">в</W> 
+<W DOM="8" FEAT="A ЕД МУЖ ПР" ID="7" LEMMA="ЦЕНТРАЛЬНЫЙ" LINK="опред">Центральном</W> 
+<W DOM="6" FEAT="S ЕД МУЖ ПР НЕОД" ID="8" LEMMA="ПАРК" LINK="предл">парке</W> 
+<W DOM="8" FEAT="S ЕД МУЖ РОД НЕОД" ID="9" LEMMA="НЬЮ-ЙОРК" LINK="атриб">Нью-Йорка</W>, 
+<W DOM="11" FEAT="ADV" ID="10" LEMMA="ГДЕ" LINK="обст">где</W> 
+<W DOM="8" FEAT="V НЕСОВ ИЗЪЯВ ПРОШ ЕД ЖЕН" ID="11" KSNAME="ПРОХОДИТЬ1" LEMMA="ПРОХОДИТЬ" LINK="релят">проходила</W> 
+<W DOM="11" FEAT="S ЕД ЖЕН ИМ НЕОД" ID="12" LEMMA="ВЫСТАВКА" LINK="предик">выставка</W> 
+<W DOM="12" FEAT="PR" ID="13" KSNAME="ПО1" LEMMA="ПО" LINK="1-компл">по</W> 
+<W DOM="13" FEAT="S ЕД ЖЕН ДАТ НЕОД" ID="14" KSNAME="ОХРАНА1" LEMMA="ОХРАНА" LINK="предл">охране</W> 
+<W DOM="14" FEAT="S ЕД СРЕД РОД НЕОД" ID="15" LEMMA="ДЕТСТВО" LINK="1-компл">детства</W>. 
+</S>
+</body>
+</text>
