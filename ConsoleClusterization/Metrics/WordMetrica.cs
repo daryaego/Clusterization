@@ -13,13 +13,24 @@ namespace Clusters.Metrica
     //  несоответствие типов - 15, 
     //  отсутствие соответствующего поля - 10, 
     //  несоответствие значения поля - 5
-    public class Metrics1 : Metrica<Word>
+    public class WordMetrica : Metrica<Word>
     {
+        double typePenalty;
+        double propertyPenalty;
+        double propertyValuePenalty;
+
+        public WordMetrica(double typePenalty=1.0, double propertyPenalty=0.8, double propertyValuePenalty=0.5)
+        {
+            this.typePenalty = typePenalty;
+            this.propertyPenalty = propertyPenalty;
+            this.propertyValuePenalty = propertyValuePenalty;
+        }
+
         public double distance(Word a, Word b)
         {
-            int result = 0;
+            double result = 0;
             if (a.GetType() != b.GetType())
-                result += 15;
+                result += typePenalty;
 
             var aFields = a.GetType().GetFields().ToList();
             var bFields = b.GetType().GetFields().ToList();
@@ -30,13 +41,13 @@ namespace Clusters.Metrica
                            select field;
                 if (temp.Count() == 0)
                 {
-                    result += 10;
+                    result += propertyPenalty;
                     continue;
                 }
                 var bField = temp.First();
                 var bFieldValue = bField.GetValue(b);
                 var aFieldValue = info.GetValue(a);
-                var fine = 1;
+                var fine = 1.0;
                 //switch (info.Name)
                 //{
                 //    case "Value":
@@ -46,7 +57,7 @@ namespace Clusters.Metrica
                 //        break;
                 //}
                 if (!object.Equals(aFieldValue, bFieldValue))
-                    result += 5 * fine;
+                    result += propertyValuePenalty * fine;
             }
 
             return (double)result;
