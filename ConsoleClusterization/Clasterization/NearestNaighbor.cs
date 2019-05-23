@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Clusters.Clasterization
 {
-    public class NearestNaighbor<T> : ClusteringMethod<T>
+    public class NearestNaighbor<T> : HierarchicalMethod<T>
     {
-        public NearestNaighbor(int count) : base(count)
+        public NearestNaighbor() : base()
         {
         }
 

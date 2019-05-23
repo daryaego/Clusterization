@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Darya\\code\\ConsoleClusterization\\ConsoleClusterization\\ConsoleClusterization.csproj",
+      "projectUniqueName": "E:\\Darya\\code\\Clusterization\\ConsoleClusterization\\ConsoleClusterization.csproj",
       "projectName": "ConsoleClusterization",
-      "projectPath": "E:\\Darya\\code\\ConsoleClusterization\\ConsoleClusterization\\ConsoleClusterization.csproj",
+      "projectPath": "E:\\Darya\\code\\Clusterization\\ConsoleClusterization\\ConsoleClusterization.csproj",
       "packagesPath": "C:\\Users\\Darya\\.nuget\\packages\\",
-      "outputPath": "E:\\Darya\\code\\ConsoleClusterization\\ConsoleClusterization\\obj\\",
+      "outputPath": "E:\\Darya\\code\\Clusterization\\ConsoleClusterization\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -9,3 +9,14 @@ E:\Darya\code\ConsoleClusterization\ConsoleClusterization\bin\Debug\netcoreapp2.
 E:\Darya\code\ConsoleClusterization\ConsoleClusterization\bin\Debug\netcoreapp2.1\ConsoleClusterization.pdb
 E:\Darya\code\ConsoleClusterization\ConsoleClusterization\obj\Debug\netcoreapp2.1\ConsoleClusterization.dll
 E:\Darya\code\ConsoleClusterization\ConsoleClusterization\obj\Debug\netcoreapp2.1\ConsoleClusterization.pdb
+E:\Darya\code\Clusterization\ConsoleClusterization\obj\Debug\netcoreapp2.1\ConsoleClusterization.csprojAssemblyReference.cache
+E:\Darya\code\Clusterization\ConsoleClusterization\obj\Debug\netcoreapp2.1\ConsoleClusterization.csproj.CoreCompileInputs.cache
+E:\Darya\code\Clusterization\ConsoleClusterization\obj\Debug\netcoreapp2.1\ConsoleClusterization.AssemblyInfoInputs.cache
+E:\Darya\code\Clusterization\ConsoleClusterization\obj\Debug\netcoreapp2.1\ConsoleClusterization.AssemblyInfo.cs
+E:\Darya\code\Clusterization\ConsoleClusterization\obj\Debug\netcoreapp2.1\ConsoleClusterization.dll
+E:\Darya\code\Clusterization\ConsoleClusterization\obj\Debug\netcoreapp2.1\ConsoleClusterization.pdb
+E:\Darya\code\Clusterization\ConsoleClusterization\bin\Debug\netcoreapp2.1\ConsoleClusterization.deps.json
+E:\Darya\code\Clusterization\ConsoleClusterization\bin\Debug\netcoreapp2.1\ConsoleClusterization.runtimeconfig.json
+E:\Darya\code\Clusterization\ConsoleClusterization\bin\Debug\netcoreapp2.1\ConsoleClusterization.runtimeconfig.dev.json
+E:\Darya\code\Clusterization\ConsoleClusterization\bin\Debug\netcoreapp2.1\ConsoleClusterization.dll
+E:\Darya\code\Clusterization\ConsoleClusterization\bin\Debug\netcoreapp2.1\ConsoleClusterization.pdb

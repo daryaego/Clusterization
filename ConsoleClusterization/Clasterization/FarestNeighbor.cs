@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Clusters.Clasterization
 {
-    public class FarestNeighbor<T> : ClusteringMethod<T>
+    public class FarestNeighbor<T> : HierarchicalMethod<T>
     {
-        public FarestNeighbor(int count) : base(count)
+        public FarestNeighbor() : base()
         {
         }
 
