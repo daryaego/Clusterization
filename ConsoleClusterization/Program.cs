@@ -24,16 +24,17 @@ namespace Clusters
             readClusters("..\\SynTagRus2017\\2003");
 
             var method = new FarestNeighbor<Triplet<Word>>();
-            var result = method.clusterize(data, new TripletMetrica<Word>(new WordMetrica()), 13);
+            var result = method.clusterize(data, new TripletMetrica<Word>(new WordMetrica()), 11);
 
             var format = new XmlSerializer(typeof(List<Triplet<Word>>));
             var statFormat = new BinaryFormatter();//new XmlSerializer(typeof(Dictionary<Type, int>));
             resultItemsCount = 0;
+            FileStream stream;
             for (int i = 0; i < result.Count; i++)
             {
                 resultItemsCount += result[i].Count;
                 var fileName = "clustersResult" + i + ".xml";
-                var stream = File.Create(fileName);
+                stream = File.Create(fileName);
                 format.Serialize(stream, result[i]);
                 stream.Close();
 
@@ -43,6 +44,12 @@ namespace Clusters
                 statFormat.Serialize(stream, stat);
                 stream.Close();
             }
+
+            var dataStat = getStatForCluster(data);
+            stream = File.Create("dataStat.xml");
+            statFormat.Serialize(stream, dataStat);
+            stream.Close();
+
             Console.WriteLine("Data count: " + data.Count + "\nResult count: " + resultItemsCount);
             Console.Read();
         }
