@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clusters.Metrica
+namespace ConsoleClusterization.Metrics
 {
     public class Triplet<T>
     {

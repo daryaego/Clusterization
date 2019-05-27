@@ -1,14 +1,9 @@
-﻿using Clusters.Metrica;
-using ConsoleClusterization.Metrics;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleClusterization.Metrics
 {
-    //расстояние между первыми и третьими элементами на основании базовой метрики
     internal class SumTripletMetrica<T> : Metrica<Triplet<T>>
     {
         private Metrica<T> baseMetrica;
