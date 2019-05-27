@@ -17,12 +17,12 @@ namespace ConsoleClusterization.Clusterization
         {
             var firstCluster = clusters[operatingClusters[firstClusterPosition]];
             var secondCluster = clusters[operatingClusters[secondClusterPosition]];
-            double maxDistance = metrica.distance(set[firstCluster[0]], set[secondCluster[0]]);
+            double maxDistance = getObjectsDistance(firstCluster[0], secondCluster[0]);
             for (int i = 1; i < firstCluster.Count; i++)
             {
                 for (int j = 0; j < secondCluster.Count; j++)
                 {
-                    var temp = metrica.distance(set[firstCluster[i]], set[secondCluster[j]]);
+                    var temp = getObjectsDistance(firstCluster[i], secondCluster[j]);
                     if (temp > maxDistance)
                         maxDistance = temp;
                 }

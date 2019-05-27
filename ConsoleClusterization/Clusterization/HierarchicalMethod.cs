@@ -9,21 +9,20 @@ namespace ConsoleClusterization.Clusterization
 {
     public abstract class HierarchicalMethod<T> : ClusteringMethod<T>
     {
-        private static int threadCount = 6;
         protected List<int>[] clusters;
-        protected int[][] distances;
+        protected double[][] clustersDistances;
         protected List<int> operatingClusters;
 
         public override List<List<T>> clusterize(List<T> set, Metrica<T> metrica, int count)
         {
-            this.initialize(set, metrica,count);
+            this.initialize(set, metrica, count);
 
             while (operatingClusters.Count > this.clustersCount)
             {
                 int firstCluster = 0; int secondCluster = 1;
                 this.getMinPositions(out firstCluster, out secondCluster);
                 this.uniteClusters(firstCluster, secondCluster);
-                Console.WriteLine(operatingClusters.Count);
+                if (operatingClusters.Count % 100 == 0) Console.WriteLine(operatingClusters.Count);
             }
 
             return toListList();
@@ -48,11 +47,8 @@ namespace ConsoleClusterization.Clusterization
 
         private void uniteClusters(int firstCluster, int secondCluster)
         {
-            Console.WriteLine("Uniting clusters...");
             clusters[operatingClusters[firstCluster]] = clusters[operatingClusters[firstCluster]].Concat(clusters[operatingClusters[secondCluster]]).ToList();
             operatingClusters.RemoveAt(secondCluster);
-
-            Console.WriteLine("Recounting distances...");
 
             //пересчитать расстояния для firstCluster
             Task[] tasks = new Task[threadCount];
@@ -63,7 +59,7 @@ namespace ConsoleClusterization.Clusterization
                     var start = (int)value;
                     for (int j = start; j < operatingClusters.Count; j += threadCount)
                         if (firstCluster != j)
-                            setDistance(firstCluster, j, (int)distance(firstCluster, j));
+                            setDistance(firstCluster, j, distance(firstCluster, j));
                     return;
                 }, i);
             }
@@ -78,19 +74,21 @@ namespace ConsoleClusterization.Clusterization
             this.set = set;
             this.metrica = metrica;
             clusters = new List<int>[set.Count];
-            distances = new int[set.Count][];
+            clustersDistances = new double[set.Count][];
+            objectsDistances = new double[set.Count][];
             operatingClusters = new List<int>();
             for (int i = 0; i < set.Count; i++)
             {
                 //сначала каждый кластер содержит один элемент
                 clusters[i] = new List<int>();
                 clusters[i].Add(i);
-                distances[i] = new int[i];
+                clustersDistances[i] = new double[i];
+                objectsDistances[i] = new double[i];
                 operatingClusters.Add(i);
             }
 
             Task[] tasks = new Task[threadCount];
-            int step = (int)Math.Ceiling((double)distances.Length / threadCount);
+            int step = (int)Math.Ceiling((double)clustersDistances.Length / threadCount);
             for (int i = 0; i < threadCount; i++)
             {
                 Tuple<int, int> coordinates = new Tuple<int, int>(i, threadCount);
@@ -107,11 +105,12 @@ namespace ConsoleClusterization.Clusterization
 
         private void initializeDistances(int startPosition, int step)
         {
-            for (int i = startPosition; i < distances.Length; i += step)
+            for (int i = startPosition; i < clustersDistances.Length; i += step)
             {
                 for (int j = 0; j < i; j++)
                 {
-                    distances[i][j] = ((int)metrica.distance(set[i], set[j]));
+                    clustersDistances[i][j] = (metrica.distance(set[i], set[j]));
+                    objectsDistances[i][j] = clustersDistances[i][j];
                 }
                 if (i % 1000 == 0) Console.WriteLine(i);
             }
@@ -147,7 +146,6 @@ namespace ConsoleClusterization.Clusterization
         private Tuple<double, int, int> Count(int startPosition, int step)
         {
             if (startPosition > operatingClusters.Count) return new Tuple<double, int, int>(double.MaxValue, -1, -1);
-            Console.WriteLine($"ID{Task.CurrentId} started");
 
             int firstCluster = startPosition;
             int secondCluster = 0 == firstCluster ? 1 : 0;
@@ -164,16 +162,15 @@ namespace ConsoleClusterization.Clusterization
                         secondCluster = j;
                     }
                 }
-            Console.WriteLine($"ID{Task.CurrentId} done");
             return new Tuple<double, int, int>(min, firstCluster, secondCluster);
         }
 
-        private void setDistance(int i, int j, int value)
+        private void setDistance(int i, int j, double value)
         {
             var posi = operatingClusters[i];
             var posj = operatingClusters[j];
             if (i == j) return;
-            distances[Math.Max(posi, posj)][Math.Min(posi, posj)] = value;
+            clustersDistances[Math.Max(posi, posj)][Math.Min(posi, posj)] = value;
         }
 
         private double getDistance(int i, int j)
@@ -181,7 +178,7 @@ namespace ConsoleClusterization.Clusterization
             var posi = operatingClusters[i];
             var posj = operatingClusters[j];
             if (i == j) return 0;
-            else return distances[Math.Max(posi, posj)][Math.Min(posi, posj)];
+            else return clustersDistances[Math.Max(posi, posj)][Math.Min(posi, posj)];
         }
 
         public abstract double distance(int firstCluster, int secondCluster);

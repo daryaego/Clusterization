@@ -13,13 +13,17 @@ namespace ConsoleClusterization.Clusterization
 {
     public abstract class ClusteringMethod<T>
     {
-        private static int threadCount = 4;
+        protected static int threadCount = 6;
         protected int clustersCount = 10;
         protected Metrica<T> metrica;
         protected List<T> set;
+        protected double[][] objectsDistances;
 
         public abstract List<List<T>> clusterize(List<T> set, Metrica<T> metrica, int count);
 
-        //public abstract double distance(int firstCluster, int secondCluster);
+        protected double getObjectsDistance(int i, int j)
+        {
+            return objectsDistances[Math.Max(i, j)][Math.Min(i, j)];
+        }
     }
 }

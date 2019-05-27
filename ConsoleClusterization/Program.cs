@@ -24,7 +24,7 @@ namespace Clusters
             readClusters("..\\SynTagRus2017\\2003");
 
             var method = new FarestNeighbor<Triplet<Word>>();
-            var result = method.clusterize(data, new SumTripletMetrica<Word>(new WordMetrica(0.8, 0.5, 0.3)), 11);
+            var result = method.clusterize(data, new MultTripletMetrica<Word>(new WordMetrica(0.8, 0.5, 0.3)), 11);
 
             var format = new XmlSerializer(typeof(List<Triplet<Word>>));
             var statFormat = new BinaryFormatter();//new XmlSerializer(typeof(Dictionary<Type, int>));
