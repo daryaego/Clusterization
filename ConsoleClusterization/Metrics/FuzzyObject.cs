@@ -9,7 +9,9 @@ namespace ConsoleClusterization.Metrics
         public Dictionary<string, Dictionary<string, double>> Belongings;
 
         public FuzzyObject()
-        { }
+        {
+            Belongings = new Dictionary<string, Dictionary<string, double>>();
+        }
 
         public static FuzzyObject operator +(FuzzyObject first, FuzzyObject second)
         {
@@ -37,6 +39,14 @@ namespace ConsoleClusterization.Metrics
             }
 
             return result;
+        }
+
+        public static FuzzyObject operator/(FuzzyObject item, double div)
+        {
+            foreach (var property in item.Belongings)
+                foreach (var value in property.Value)
+                    item.Belongings[property.Key][value.Key] = item.Belongings[property.Key][value.Key] / div;
+            return item;
         }
 
 
