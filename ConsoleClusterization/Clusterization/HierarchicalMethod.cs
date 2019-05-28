@@ -16,6 +16,7 @@ namespace ConsoleClusterization.Clusterization
         public override List<List<T>> clusterize(List<T> set, Metrica<T> metrica, int count)
         {
             this.initialize(set, metrica, count);
+            Console.WriteLine("Starting clusterization");
 
             while (operatingClusters.Count > this.clustersCount)
             {
@@ -25,12 +26,12 @@ namespace ConsoleClusterization.Clusterization
                 if (operatingClusters.Count % 100 == 0) Console.WriteLine(operatingClusters.Count);
             }
 
-            return toListList();
+            return prepareResult();
         }
 
-        private List<List<T>> toListList()
+        private List<List<T>> prepareResult()
         {
-            Console.WriteLine("Converting into List<List<T>>");
+            Console.WriteLine("Preparing the result");
             var res = new List<List<T>>();
             for (int i = 0; i < operatingClusters.Count; i++)
             {

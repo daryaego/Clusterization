@@ -11,6 +11,7 @@ namespace ConsoleClusterization.Clusterization
 
         protected List<List<T>> prepareResult()
         {
+            Console.WriteLine("Preparing the result");
             var result = new List<List<T>>();
             for (int i = 0; i < clustersCount; i++)
                 result.Add(new List<T>());
