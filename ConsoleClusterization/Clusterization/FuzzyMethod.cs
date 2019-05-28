@@ -6,8 +6,8 @@ namespace ConsoleClusterization.Clusterization
 {
     public abstract class FuzzyMethod<T> : ClusteringMethod<T>
     {
-        protected float[][] associationMatrix;
-        protected float trustLevel;
+        protected double[][] associationMatrix;
+        protected double trustLevel;
 
         protected List<List<T>> prepareResult()
         {
