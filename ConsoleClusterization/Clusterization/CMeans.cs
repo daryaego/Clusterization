@@ -38,7 +38,7 @@ namespace ConsoleClusterization.Clusterization
             var rand = new Random();
             for (int i = 0; i < count; i++)
                 centers[i] = metrica.multiply(set[rand.Next(set.Count)], 1);
-            
+
             Task[] tasks = new Task[threadCount];
             int step = (int)Math.Ceiling((double)objectsDistances.Length / threadCount);
             for (int i = 0; i < threadCount; i++)
@@ -60,8 +60,17 @@ namespace ConsoleClusterization.Clusterization
         {
             for (int i = startPosition; i < objectsDistances.Length; i += step)
             {
+                var sum = 0.0;
                 for (int j = 0; j < clustersCount; j++)
-                    associationMatrix[i][j] = metrica.distance(set[i], centers[j]);
+                {
+                    var distance = metrica.distance(set[i], centers[j]);
+                    associationMatrix[i][j] = distance;
+                    sum += distance;
+                }
+                for (int j = 0; j < clustersCount; j++)
+                {
+                    associationMatrix[i][j] = associationMatrix[i][j] / sum;
+                }
                 if (i % 1000 == 0) Console.WriteLine(i);
             }
         }

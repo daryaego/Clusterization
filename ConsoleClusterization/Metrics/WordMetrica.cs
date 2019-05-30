@@ -76,7 +76,7 @@ namespace ConsoleClusterization.Metrics
                     res += propertyPenalty;
                 else if (!fuzzy.Belongings[field.Name].ContainsKey(field.GetValue(straight).ToString()))
                     res += propertyValuePenalty;
-                else res += fuzzy.Belongings[field.Name][field.GetValue(straight).ToString()] * propertyValuePenalty + propertyValuePenalty;
+                else res += (1 - fuzzy.Belongings[field.Name][field.GetValue(straight).ToString()]) * propertyValuePenalty;
             }
             return res;
         }

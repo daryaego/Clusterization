@@ -32,8 +32,6 @@ namespace Clusters.Words
         public Mood _mood = Mood.Subjunctive;
         [XmlAttribute]
         public bool _animation;
-        [XmlAttribute]
-        public Person _person;
 
 
         public Verb() : base()
