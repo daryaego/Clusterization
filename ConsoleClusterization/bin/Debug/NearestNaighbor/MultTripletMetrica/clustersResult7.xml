@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfTripletOfWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TripletOfWord>
+    <first xsi:type="Adverb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="много" _comparability="None">
+      <Value>много</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="я" _plural="false" _gender="M" _case="Nominative" _animation="true">
+      <Value>я</Value>
+    </second>
+    <third xsi:type="Numeral" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="один" Animation="false">
+      <Value>один</Value>
+    </third>
+  </TripletOfWord>
+</ArrayOfTripletOfWord>

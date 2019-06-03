@@ -1,0 +1,762 @@
+<?xml version="1.0"?>
+<ArrayOfTripletOfWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="данные" _plural="true" _gender="M" _case="Dative" _animation="false">
+      <Value>данным</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="перепись" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>переписи</Value>
+    </second>
+    <third xsi:type="Numeral" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="опред" _lemma="1897" Animation="false">
+      <Value>1897</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="данные" _plural="true" _gender="M" _case="Dative" _animation="false">
+      <Value>данным</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="совет" _plural="false" _gender="M" _case="Genetive" _animation="false">
+      <Value>совета</Value>
+    </second>
+    <third xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="содействие" _plural="false" _gender="N" _case="Genetive" _animation="false">
+      <Value>содействия</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="данные" _plural="true" _gender="M" _case="Dative" _animation="false">
+      <Value>данным</Value>
+    </first>
+    <second xsi:type="Numeral" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="количест" _lemma="70" Animation="false">
+      <Value>70</Value>
+    </second>
+    <third xsi:type="Numeral" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="кратн" _lemma="75" Animation="false">
+      <Value>75</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="данные" _plural="true" _gender="M" _case="Dative" _animation="false">
+      <Value>данным</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="министерство" _plural="false" _gender="N" _case="Genetive" _animation="false">
+      <Value>министерства</Value>
+    </second>
+    <third xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="транспорт" _plural="false" _gender="M" _case="Genetive" _animation="false">
+      <Value>транспорта</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="ученый" _plural="true" _gender="M" _case="Genetive" _animation="true">
+      <Value>ученых</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="америка" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>америки</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="armenian">
+      <Value>armenian</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="энциклопедия" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>энциклопедии</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="страна" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>страны</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="armenian">
+      <Value>armenian</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="газета" _plural="true" _gender="W" _case="Nominative" _animation="false">
+      <Value>газеты</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="aravot">
+      <Value>aravot</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="ayots">
+      <Value>ayots</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="газета" _plural="true" _gender="W" _case="Nominative" _animation="false">
+      <Value>газеты</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="разъяснит" _lemma="айастани">
+      <Value>айастани</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="анрапетутюн">
+      <Value>анрапетутюн</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="радиокомпания" _plural="true" _gender="W" _case="Genetive" _animation="false">
+      <Value>радиокомпаний</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="Third" _link="root" _lemma="являться" _plural="false" _gender="M" _shortness="false" _perfection="false" _active="true" _time="NotPast" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>является</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="hai">
+      <Value>hai</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="америка" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>америки</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="armenian">
+      <Value>armenian</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="engineers">
+      <Value>engineers</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="линия" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>линии</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="связь" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>связи</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="tae">
+      <Value>tae</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="кратн" _lemma="германия" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>германия</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="примыкат" _lemma="волс">
+      <Value>волс</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="tae">
+      <Value>tae</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="еженедельник" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>еженедельник</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="аревелян">
+      <Value>аревелян</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="цануцманц">
+      <Value>цануцманц</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="интернет" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>internet</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="company">
+      <Value>company</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="ltd">
+      <Value>ltd</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="канал" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>канал</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="national">
+      <Value>national</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="tv">
+      <Value>tv</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="филиал" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>филиал</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="компания" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>компании</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="leda">
+      <Value>leda</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="центр" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>центр</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="херитидж">
+      <Value>херитидж</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="фаундейншн">
+      <Value>фаундейншн</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="компания" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>компании</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="leda">
+      <Value>leda</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="systems">
+      <Value>systems</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="офис" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>офис</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="leda">
+      <Value>leda</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="systems">
+      <Value>systems</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="время" _plural="false" _gender="N" _case="Nominative" _animation="false">
+      <Value>время</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="газета" _plural="true" _gender="W" _case="Nominative" _animation="false">
+      <Value>газеты</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="орран">
+      <Value>орран</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="экспресс" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>экспресс</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="газета" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>газета</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="иравунк">
+      <Value>иравунк</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="парламент" _plural="false" _gender="M" _case="Genetive" _animation="false">
+      <Value>парламента</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="армения" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>армении</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="aykakan">
+      <Value>aykakan</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="протокол" _plural="false" _gender="M" _case="Dative" _animation="false">
+      <Value>протоколу</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="tcp">
+      <Value>tcp</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="кратн" _lemma="ip">
+      <Value>ip</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="китай" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>китай</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="кратн" _lemma="германия" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>германия</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="примыкат" _lemma="волс">
+      <Value>волс</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="сеть" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>сеть</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="x.25">
+      <Value>x.25</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="примыкат" _lemma="iasnet">
+      <Value>iasnet</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="развитие" _plural="false" _gender="N" _case="Genetive" _animation="false">
+      <Value>развития</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="оон" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>оон</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="примыкат" _lemma="undp">
+      <Value>undp</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="партнерство" _plural="false" _gender="N" _case="Praepositionalis" _animation="false">
+      <Value>партнерстве</Value>
+    </first>
+    <second xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="с">
+      <Value>с</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="accels">
+      <Value>accels</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="присвяз" _lemma="посторонний" _plural="false" _gender="M" _case="Instrumentalis" _animation="true">
+      <Value>посторонним</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="разъяснит" _lemma="предстоять" _plural="false" _gender="M" _shortness="false" _perfection="false" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>предстоял</Value>
+    </second>
+    <third xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="огранич" _lemma="ведь">
+      <Value>ведь</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="премьер" _plural="true" _gender="M" _case="Nominative" _animation="true">
+      <Value>премьеры</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="они" _plural="true" _gender="M" _case="Nominative" _animation="true">
+      <Value>они</Value>
+    </second>
+    <third xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="огранич" _lemma="ведь">
+      <Value>ведь</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="работа" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>работа</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="подч-союзн" _lemma="заключаться" _plural="false" _gender="W" _shortness="false" _perfection="false" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>заключалась</Value>
+    </second>
+    <third xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="огранич" _lemma="всего">
+      <Value>всего</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="перерасход" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>перерасход</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="но">
+      <Value>но</Value>
+    </second>
+    <third xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="огранич" _lemma="уж">
+      <Value>уж</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="удар" _plural="false" _gender="M" _case="Accusative" _animation="false">
+      <Value>удар</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="что">
+      <Value>что</Value>
+    </second>
+    <third xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="огранич" _lemma="чуть">
+      <Value>чуть</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="каблук" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>каблук</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="и">
+      <Value>и</Value>
+    </second>
+    <third xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="вот">
+      <Value>вот</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="слеза" _plural="true" _gender="W" _case="Nominative" _animation="false">
+      <Value>слезы</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="и">
+      <Value>и</Value>
+    </second>
+    <third xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="вот">
+      <Value>вот</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="справедливость" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>справедливость</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="вводн" _lemma="начинать" _plural="false" _gender="M" _shortness="false" _perfection="true" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>начал</Value>
+    </second>
+    <third xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аналит" _lemma="было">
+      <Value>было</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="время" _plural="false" _gender="N" _case="Genetive" _animation="false">
+      <Value>времени</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="и">
+      <Value>и</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="из-за">
+      <Value>из-за</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="получение" _plural="false" _gender="N" _case="Genetive" _animation="false">
+      <Value>получения</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="виза" _plural="true" _gender="W" _case="Genetive" _animation="false">
+      <Value>виз</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="через">
+      <Value>через</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="лицо" _plural="false" _gender="N" _case="Genetive" _animation="false">
+      <Value>лица</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="биться" _plural="true" _gender="M" _shortness="false" _perfection="false" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>бились</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="над">
+      <Value>над</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="положение" _plural="false" _gender="N" _case="Genetive" _animation="false">
+      <Value>положения</Value>
+    </first>
+    <second xsi:type="Adverb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="огранич" _lemma="исключительно" _comparability="None">
+      <Value>исключительно</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="благодаря">
+      <Value>благодаря</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="коррида" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>корриды</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="но">
+      <Value>но</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="вводн" _lemma="в">
+      <Value>в</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="тело" _plural="false" _gender="N" _case="Nominative" _animation="false">
+      <Value>тело</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="жена" _plural="false" _gender="W" _case="Genetive" _animation="true">
+      <Value>жены</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="подч-союзн" _lemma="в">
+      <Value>в</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="муха" _plural="false" _gender="W" _case="Nominative" _animation="true">
+      <Value>муха</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="опред" _lemma="ползать" _plural="false" _gender="W" _shortness="false" _perfection="false" _active="true" _time="Past" _case="Nominative" _representation="Participle" _passive="false" _mood="Subjunctive" _animation="false">
+      <Value>ползавшая</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="3-компл" _lemma="по">
+      <Value>по</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="речь" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>речь</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="Third" _link="подч-союзн" _lemma="идти" _plural="false" _gender="M" _shortness="false" _perfection="false" _active="true" _time="NotPast" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>идет</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-несобст-компл" _lemma="о">
+      <Value>о</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="формальность" _plural="true" _gender="W" _case="Nominative" _animation="false">
+      <Value>формальности</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="подсказывать" _plural="true" _gender="M" _shortness="false" _perfection="true" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>подсказали</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="насчет">
+      <Value>насчет</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сравн-союзн" _lemma="фон" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>фон</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="а">
+      <Value>а</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="насчет">
+      <Value>насчет</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="сеть" _plural="true" _gender="W" _case="Accusative" _animation="false">
+      <Value>сети</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="связь" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>связи</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="посредством">
+      <Value>посредством</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="это" _plural="false" _gender="N" _case="Nominative" _animation="false">
+      <Value>это</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="происходить" _plural="false" _gender="N" _shortness="false" _perfection="true" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>произошло</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="несмотря на">
+      <Value>несмотря на</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="театр" _plural="false" _gender="M" _case="Accusative" _animation="false">
+      <Value>театр</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="принимать" _plural="true" _gender="M" _shortness="false" _perfection="true" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>приняли</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="несмотря на">
+      <Value>несмотря на</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="галоп" _plural="false" _gender="M" _case="Instrumentalis" _animation="false">
+      <Value>галопом</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="бежать" _plural="true" _gender="M" _shortness="false" _perfection="false" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>бежали</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="вокруг">
+      <Value>вокруг</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="нога" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>ноги</Value>
+    </first>
+    <second xsi:type="Adverb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="так" _comparability="None">
+      <Value>так</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="до">
+      <Value>до</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="4-компл" _lemma="паралитик" _plural="true" _gender="M" _case="Instrumentalis" _animation="true">
+      <Value>паралитиками</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="недоумок" _plural="true" _gender="M" _case="Instrumentalis" _animation="true">
+      <Value>недоумками</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="до">
+      <Value>до</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="поднос" _plural="false" _gender="M" _case="Praepositionalis" _animation="false">
+      <Value>подносе</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="и">
+      <Value>и</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="до">
+      <Value>до</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="долг" _plural="true" _gender="M" _case="Genetive" _animation="false">
+      <Value>долгов</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="армения" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>армении</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="за счет">
+      <Value>за счет</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="экономика" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>экономики</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="страна" _plural="false" _gender="W" _case="Genetive" _animation="false">
+      <Value>страны</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="за счет">
+      <Value>за счет</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="блеск" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>блеск</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="а">
+      <Value>а</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="за">
+      <Value>за</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="балеринка" _plural="true" _gender="W" _case="Nominative" _animation="true">
+      <Value>балеринки</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="быть" _plural="true" _gender="M" _shortness="false" _perfection="false" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>были</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="присвяз" _lemma="за">
+      <Value>за</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="четвереньки" _plural="true" _gender="W" _case="Praepositionalis" _animation="false">
+      <Value>четвереньках</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="и">
+      <Value>и</Value>
+    </second>
+    <third xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="пока">
+      <Value>пока</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="постель" _plural="false" _gender="W" _case="Accusative" _animation="false">
+      <Value>постель</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="но">
+      <Value>но</Value>
+    </second>
+    <third xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="едва">
+      <Value>едва</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="поза" _plural="false" _gender="W" _case="Accusative" _animation="false">
+      <Value>позу</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="но">
+      <Value>но</Value>
+    </second>
+    <third xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="едва">
+      <Value>едва</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="беда" _plural="false" _gender="W" _case="Accusative" _animation="false">
+      <Value>беду</Value>
+    </first>
+    <second xsi:type="Adverb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="2-компл" _lemma="отсюда" _comparability="None">
+      <Value>отсюда</Value>
+    </second>
+    <third xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сент-соч" _lemma="ан">
+      <Value>ан</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="неудача" _plural="true" _gender="W" _case="Nominative" _animation="false">
+      <Value>неудачи</Value>
+    </first>
+    <second xsi:type="Adverb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="потом" _comparability="None">
+      <Value>потом</Value>
+    </second>
+    <third xsi:type="Interjection" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="вводн" _lemma="трах">
+      <Value>трах</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="роль" _plural="true" _gender="W" _case="Praepositionalis" _animation="false">
+      <Value>ролях</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="1-компл" _lemma="лакей" _plural="true" _gender="M" _case="Genetive" _animation="true">
+      <Value>лакеев</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="кроме">
+      <Value>кроме</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="роль" _plural="true" _gender="W" _case="Praepositionalis" _animation="false">
+      <Value>ролях</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="и">
+      <Value>и</Value>
+    </second>
+    <third xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="то" _plural="false" _gender="N" _case="Instrumentalis" _animation="false">
+      <Value>тем</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Particle" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="огранич" _lemma="еще">
+      <Value>еще</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="путаться" _plural="false" _gender="M" _shortness="false" _perfection="false" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>путался</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="перед">
+      <Value>перед</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="сосулька" _plural="true" _gender="W" _case="Praepositionalis" _animation="false">
+      <Value>сосульках</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="а">
+      <Value>а</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="перед">
+      <Value>перед</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="но">
+      <Value>но</Value>
+    </first>
+    <second xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="с">
+      <Value>с</Value>
+    </second>
+    <third xsi:type="Adjective" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="опред" _lemma="этот" _plural="false" _gender="N" _case="Genetive" _animation="false" _shortness="false" _comparability="None">
+      <Value>этого</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Adjective" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="опред" _lemma="широкий" _plural="false" _gender="M" _case="Praepositionalis" _animation="false" _shortness="false" _comparability="None">
+      <Value>широком</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="смысл" _plural="false" _gender="M" _case="Praepositionalis" _animation="false">
+      <Value>смысле</Value>
+    </second>
+    <third xsi:type="Adjective" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="опред" _lemma="этот" _plural="false" _gender="N" _case="Genetive" _animation="false" _shortness="false" _comparability="None">
+      <Value>этого</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="зато">
+      <Value>зато</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="парикмахер" _plural="true" _gender="M" _case="Genetive" _animation="true">
+      <Value>парикмахеров</Value>
+    </second>
+    <third xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="обст" _lemma="на">
+      <Value>на</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="зато">
+      <Value>зато</Value>
+    </first>
+    <second xsi:type="Adjective" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="опред" _lemma="монументальный" _plural="false" _gender="W" _case="Dative" _animation="false" _shortness="false" _comparability="None">
+      <Value>монументальной</Value>
+    </second>
+    <third xsi:type="Adjective" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="опред" _lemma="царский" _plural="false" _gender="W" _case="Dative" _animation="false" _shortness="false" _comparability="None">
+      <Value>царской</Value>
+    </third>
+  </TripletOfWord>
+</ArrayOfTripletOfWord>
