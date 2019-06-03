@@ -1,4 +1,5 @@
 ﻿using Clusters.Words;
+using ConsoleClusterization.Additional;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,7 @@ namespace ConsoleClusterization.Metrics
 
         public double distance(Word a, Word b)
         {
+            double maximumDifference = typePenalty;
             double result = 0;
             if (a.GetType() != b.GetType())
                 result += typePenalty;
@@ -44,27 +46,33 @@ namespace ConsoleClusterization.Metrics
                     result += propertyPenalty;
                     continue;
                 }
+                maximumDifference += propertyPenalty;
                 var bField = temp.First();
                 var bFieldValue = bField.GetValue(b);
                 var aFieldValue = info.GetValue(a);
-                var fine = 1.0;
-                //switch (info.Name)
-                //{
-                //    case "Value":
-                //        fine = 0;
-                //        break;
-                //    default:
-                //        break;
-                //}
                 if (!object.Equals(aFieldValue, bFieldValue))
-                    result += propertyValuePenalty * fine;
+                    result += propertyValuePenalty;
+                maximumDifference += propertyValuePenalty;
             }
 
-            return (double)result;
+            foreach(var info in bFields)
+            {
+                var temp = from field in aFields
+                           where field.Name == info.Name
+                           select field;
+                if(temp.Count()==0)
+                {
+                    result += propertyPenalty;
+                    maximumDifference += propertyPenalty;
+                }
+            }
+
+            return result/maximumDifference;
         }
 
-        public double distance(FuzzyObject fuzzy, Word straight)
+        public double distance(BaseFuzzyObject bFuzzy, Word straight)
         {
+            var fuzzy = bFuzzy as FuzzyObject;
             var res = 0.0;
             var type = straight.GetType();
             if (!fuzzy.Belongings["type"].ContainsKey(type.Name))
@@ -81,12 +89,12 @@ namespace ConsoleClusterization.Metrics
             return res;
         }
 
-        public double distance(Word straight, FuzzyObject fuzzy)
+        public double distance(Word straight, BaseFuzzyObject fuzzy)
         {
             return this.distance(fuzzy, straight);
         }
 
-        public FuzzyObject multiply(Word item, double mult)
+        public BaseFuzzyObject multiply(Word item, double mult)
         {
             var fuzzy = new FuzzyObject();
             var typeDictionary = new Dictionary<string, double>();

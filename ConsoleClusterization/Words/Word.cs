@@ -37,6 +37,12 @@ namespace Clusters.Words
         [XmlAttribute]
         public Person _person;
 
+        [XmlAttribute]
+        public string _link;
+
+        [XmlAttribute]
+        public string _lemma;
+
         //public Word(Word image)
         //{
         //    this.Value = image.Value;

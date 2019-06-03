@@ -2,19 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleClusterization.Metrics
+namespace ConsoleClusterization.Additional
 {
-    public class FuzzyObject
+    public class FuzzyObject : BaseFuzzyObject
     {
         public Dictionary<string, Dictionary<string, double>> Belongings;
 
-        public FuzzyObject()
+        public FuzzyObject() : base()
         {
             Belongings = new Dictionary<string, Dictionary<string, double>>();
         }
 
-        public static FuzzyObject operator +(FuzzyObject first, FuzzyObject second)
+        protected override BaseFuzzyObject plus(BaseFuzzyObject fuzzy)
         {
+            var first = this;
+            var second = fuzzy as FuzzyObject;
+
             var result = new FuzzyObject();
             foreach (var property in first.Belongings)
             {
@@ -41,14 +44,22 @@ namespace ConsoleClusterization.Metrics
             return result;
         }
 
-        public static FuzzyObject operator/(FuzzyObject item, double div)
+        public override BaseFuzzyObject divide(double div)
         {
-            foreach (var property in item.Belongings)
+            var result = new FuzzyObject();
+            foreach (var property in Belongings)
+            {
+                var values = new Dictionary<string, double>();
                 foreach (var value in property.Value)
-                    item.Belongings[property.Key][value.Key] = item.Belongings[property.Key][value.Key] / div;
-            return item;
-        }
+                {
+                    //Belongings[property.Key][value.Key] = Belongings[property.Key][value.Key] / div;
+                    values.Add(value.Key, Belongings[property.Key][value.Key] / div);
+                }
+                result.Belongings.Add(property.Key, values);
 
+            }
+            return result;
+        }
 
     }
 }

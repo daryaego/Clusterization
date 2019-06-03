@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleClusterization.Additional;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,11 +11,11 @@ namespace ConsoleClusterization.Metrics
     {
         double distance(T a, T b);
 
-        FuzzyObject multiply(T item, double mult);
+        BaseFuzzyObject multiply(T item, double mult);
 
-        double distance(FuzzyObject fuzzy, T straight);
+        double distance(BaseFuzzyObject fuzzy, T straight);
         
-        double distance(T straight, FuzzyObject fuzzy);
+        double distance(T straight, BaseFuzzyObject fuzzy);
 
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Clusters.Words;
+using ConsoleClusterization.Additional;
 using ConsoleClusterization.Clusterization;
 using ConsoleClusterization.Metrics;
 using System;
@@ -6,6 +7,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
@@ -23,38 +25,56 @@ namespace Clusters
             data = new List<Triplet<Word>>();
             readClusters("..\\SynTagRus2017\\2003");
 
-            var method = new CMeans<Triplet<Word>>();
-            var result = method.clusterize(data, new SumTripletMetrica<Word>(new WordMetrica()), 11);
+            var methods = new List<ClusteringMethod<Triplet<Word>>>();
+            methods.Add(new NearestNaighbor<Triplet<Word>>());
+            methods.Add(new FarestNeighbor<Triplet<Word>>());
+            methods.Add(new CMeans<Triplet<Word>>(0.95f));
 
-            var format = new XmlSerializer(typeof(List<Triplet<Word>>));
-            var statFormat = new BinaryFormatter();//new XmlSerializer(typeof(Dictionary<Type, int>));
-            resultItemsCount = 0;
-            FileStream stream;
-            for (int i = 0; i < result.Count; i++)
-            {
-                resultItemsCount += result[i].Count;
-                var fileName = "clustersResult" + i + ".xml";
-                stream = File.Create(fileName);
-                format.Serialize(stream, result[i]);
-                stream.Close();
+            var standartBaseMetrica = new WordMetrica();
 
-                var stat = getStatForCluster(result[i]);
-                fileName = "stat" + fileName;
-                stream = File.Create(fileName);
-                statFormat.Serialize(stream, stat);
-                stream.Close();
-            }
+            var metrics = new List<Metrica<Triplet<Word>>>();
+            metrics.Add(new SumTripletMetrica<Word>(standartBaseMetrica));
+            metrics.Add(new MultTripletMetrica<Word>(standartBaseMetrica));
+            metrics.Add(new MaxTripletMetrica<Word>(standartBaseMetrica));
 
-            var dataStat = getStatForCluster(data);
-            stream = File.Create("dataStat.xml");
-            statFormat.Serialize(stream, dataStat);
-            stream.Close();
+            foreach (var method in methods)
+                foreach (var metrica in metrics)
+                    clusterizeAndSave(method, metrica, 11);
+
 
             Console.WriteLine("Data count: " + data.Count + "\nResult count: " + resultItemsCount);
             Console.Read();
         }
 
-        private static Dictionary<string, int> getStatForCluster(List<Triplet<Word>> list)
+        private static void clusterizeAndSave(ClusteringMethod<Triplet<Word>> method, Metrica<Triplet<Word>> metrica, int count)
+        {
+            Console.WriteLine("Clustering method " + method.ToString());
+            Console.WriteLine("Metrica " + metrica.ToString());
+            var path = "..\\" + method.ToString() + "\\" + metrica.ToString() + "\\";
+            Directory.CreateDirectory(path);
+            var result = method.clusterize(data, metrica, count);
+
+            var format = new XmlSerializer(typeof(List<Triplet<Word>>));
+            var statFormat = new BinaryFormatter();
+            resultItemsCount = 0;
+            FileStream stream;
+            for (int i = 0; i < result.Count; i++)
+            {
+                resultItemsCount += result[i].Count;
+                var fileName = path + "clustersResult" + i + ".xml";
+                stream = File.Create(fileName);
+                format.Serialize(stream, result[i]);
+                stream.Close();
+
+                var fs = File.OpenWrite(path + "clusterStat" + i + ".txt");
+                var stat = getStatForCluster(result[i], fs);
+                fs.Close();
+            }
+
+            var dataStat = getStatForCluster(data, File.OpenWrite(path + "dataStat.txt"));
+        }
+
+        private static Dictionary<string, int> getStatForCluster(List<Triplet<Word>> list, FileStream fs)
         {
             var stat = new Dictionary<string, int>();
             foreach (var item in list)
@@ -69,9 +89,8 @@ namespace Clusters
                     stat.Add(type, 1);
                 }
             }
-            Console.WriteLine("____________________________________________________");
             foreach (var key in stat.Keys)
-                Console.WriteLine(key + ": " + stat[key]);
+                fs.Write(new UTF8Encoding(true).GetBytes(key + ": " + (100 * (double)stat[key] / (double)list.Count) + "\n"));
             return stat;
         }
 
@@ -96,6 +115,10 @@ namespace Clusters
                                     {
                                         var type = reader.GetAttribute("FEAT");
                                         temp = Word.CreateWord(type.ToLower(CultureInfo.CurrentCulture));
+                                        temp._link = reader.GetAttribute("LINK");
+                                        temp._lemma = reader.GetAttribute("LEMMA").ToLower(CultureInfo.CurrentCulture);
+                                        if (temp._link == null)
+                                            temp._link = "root";
                                         wordFlag = true;
                                     }
                                     break;
@@ -103,20 +126,16 @@ namespace Clusters
                                     if (wordFlag)
                                     {
                                         temp.Value = reader.Value.ToLower(CultureInfo.CurrentCulture);
-
                                         if (first == null)
                                         {
-                                            //first = new Word();
                                             first = temp.Copy();
                                         }
                                         else if (second == null)
                                         {
-                                            //second = new Word();
                                             second = temp.Copy();
                                         }
                                         else if (third == null)
                                         {
-                                            //third = new Word();
                                             third = temp.Copy();
                                             data.Add(new Triplet<Word>(first, second, third));
                                         }
@@ -132,15 +151,15 @@ namespace Clusters
                                     break;
                                 case XmlNodeType.EndElement:
                                     if (reader.Name == "S")
+                                    {
                                         first = second = third = null;
+                                    }
                                     else if (reader.Name == "W")
                                         wordFlag = false;
                                     break;
                                 default:
-                                    //Console.WriteLine("Other node {0} with value {1}", reader.NodeType, reader.Value);
                                     break;
                             }
-                        //Console.WriteLine(data[data.Count - 1]);
                     }
                     stream.Close();
                     Console.WriteLine(data.Count);

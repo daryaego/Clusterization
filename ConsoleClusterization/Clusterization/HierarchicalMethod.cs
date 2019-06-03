@@ -113,7 +113,6 @@ namespace ConsoleClusterization.Clusterization
                     clustersDistances[i][j] = (metrica.distance(set[i], set[j]));
                     objectsDistances[i][j] = clustersDistances[i][j];
                 }
-                if (i % 1000 == 0) Console.WriteLine(i);
             }
         }
 

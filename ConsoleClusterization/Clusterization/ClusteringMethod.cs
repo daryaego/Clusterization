@@ -13,7 +13,7 @@ namespace ConsoleClusterization.Clusterization
 {
     public abstract class ClusteringMethod<T>
     {
-        protected static int threadCount = 1;
+        protected static int threadCount = 6;
         protected int clustersCount = 10;
         protected Metrica<T> metrica;
         protected List<T> set;
