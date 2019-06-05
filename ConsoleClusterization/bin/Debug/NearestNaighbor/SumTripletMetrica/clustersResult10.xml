@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfTripletOfWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="арментел">
+      <Value>арментел</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="составлять" _plural="false" _gender="N" _shortness="false" _perfection="true" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>составило</Value>
+    </second>
+    <third xsi:type="Numeral" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="количест" _lemma="546" Animation="false">
+      <Value>546</Value>
+    </third>
+  </TripletOfWord>
+</ArrayOfTripletOfWord>

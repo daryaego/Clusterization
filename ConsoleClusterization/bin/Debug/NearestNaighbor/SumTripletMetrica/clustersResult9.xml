@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<ArrayOfTripletOfWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="armenian">
+      <Value>armenian</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="engineers">
+      <Value>engineers</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="and">
+      <Value>and</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="armenian">
+      <Value>armenian</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="интернет" _plural="false" _gender="M" _case="Nominative" _animation="false">
+      <Value>internet</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="company">
+      <Value>company</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="armenian">
+      <Value>armenian</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="encyclopaedia">
+      <Value>encyclopaedia</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="editorial">
+      <Value>editorial</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="national">
+      <Value>national</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="tv">
+      <Value>tv</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="and">
+      <Value>and</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="engineers">
+      <Value>engineers</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="and">
+      <Value>and</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="scientists">
+      <Value>scientists</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="and">
+      <Value>and</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="scientists">
+      <Value>scientists</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="of">
+      <Value>of</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="and">
+      <Value>and</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="radio">
+      <Value>radio</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="of">
+      <Value>of</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="scientists">
+      <Value>scientists</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="of">
+      <Value>of</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="america">
+      <Value>america</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="tv">
+      <Value>tv</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="and">
+      <Value>and</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="radio">
+      <Value>radio</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="radio">
+      <Value>radio</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="of">
+      <Value>of</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="armenia">
+      <Value>armenia</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="encyclopaedia">
+      <Value>encyclopaedia</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="editorial">
+      <Value>editorial</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="office">
+      <Value>office</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="aravot">
+      <Value>aravot</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="ayots">
+      <Value>ayots</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="ashkar">
+      <Value>ashkar</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="of">
+      <Value>of</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="america">
+      <Value>america</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="примыкат" _lemma="aesa">
+      <Value>aesa</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="company">
+      <Value>company</Value>
+    </first>
+    <second xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="ltd">
+      <Value>ltd</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="примыкат" _lemma="arminco">
+      <Value>arminco</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="композ" _lemma="isp">
+      <Value>isp</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предик" _lemma="компания" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>компания</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="аппоз" _lemma="arminco">
+      <Value>arminco</Value>
+    </third>
+  </TripletOfWord>
+  <TripletOfWord>
+    <first xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="орран">
+      <Value>орран</Value>
+    </first>
+    <second xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="газета" _plural="false" _gender="W" _case="Nominative" _animation="false">
+      <Value>газета</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="ном-аппоз" _lemma="етер">
+      <Value>етер</Value>
+    </third>
+  </TripletOfWord>
+</ArrayOfTripletOfWord>

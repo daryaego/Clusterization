@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfTripletOfWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TripletOfWord>
+    <first xsi:type="Adverb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="нудно" _comparability="None">
+      <Value>нудно</Value>
+    </first>
+    <second xsi:type="Verb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="root" _lemma="околачиваться" _plural="false" _gender="M" _shortness="false" _perfection="false" _active="true" _time="Past" _case="Nominative" _representation="Personal" _passive="false" _mood="Insicative" _animation="false">
+      <Value>околачивался</Value>
+    </second>
+    <third xsi:type="Adverb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="атриб" _lemma="сперва" _comparability="None">
+      <Value>сперва</Value>
+    </third>
+  </TripletOfWord>
+</ArrayOfTripletOfWord>

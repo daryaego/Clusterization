@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfTripletOfWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TripletOfWord>
+    <first xsi:type="Adverb" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="плохо" _comparability="Сomparative">
+      <Value>хуже</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сравнит" _lemma="чем">
+      <Value>чем</Value>
+    </second>
+    <third xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сравн-союзн" _lemma="человек" _plural="true" _gender="M" _case="Nominative" _animation="true">
+      <Value>люди</Value>
+    </third>
+  </TripletOfWord>
+</ArrayOfTripletOfWord>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfTripletOfWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TripletOfWord>
+    <first xsi:type="Preposition" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="квазиагент" _lemma="между">
+      <Value>между</Value>
+    </first>
+    <second xsi:type="Adjective" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="опред" _lemma="греческий" _plural="false" _gender="M" _case="Instrumentalis" _animation="false" _shortness="false" _comparability="None">
+      <Value>греческим</Value>
+    </second>
+    <third xsi:type="NID" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="предл" _lemma="оте">
+      <Value>оте</Value>
+    </third>
+  </TripletOfWord>
+</ArrayOfTripletOfWord>

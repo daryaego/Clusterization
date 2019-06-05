@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfTripletOfWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TripletOfWord>
+    <first xsi:type="Composite" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="композ" _lemma="радио">
+      <Value>радио</Value>
+    </first>
+    <second xsi:type="Conjunction" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="сочин" _lemma="и">
+      <Value>и</Value>
+    </second>
+    <third xsi:type="Noun" _composite="false" _softened="false" _nonStandart="false" _wrong="false" _person="First" _link="соч-союзн" _lemma="телекомпания" _plural="false" _gender="W" _case="Instrumentalis" _animation="false">
+      <Value>телекомпанией</Value>
+    </third>
+  </TripletOfWord>
+</ArrayOfTripletOfWord>

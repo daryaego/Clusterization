@@ -1,0 +1,10 @@
+Noun: 48,64
+Particle: 4,88
+Adjective: 5,04
+Conjunction: 6,24
+Verb: 25,52
+Adverb: 6,64
+NID: 0,4
+Numeral: 0,64
+Preposition: 1,92
+Composite: 0,08
