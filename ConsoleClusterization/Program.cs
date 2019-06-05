@@ -91,6 +91,7 @@ namespace Clusters
             }
             foreach (var key in stat.Keys)
                 fs.Write(new UTF8Encoding(true).GetBytes(key + ": " + (100 * (double)stat[key] / (double)list.Count) + "\n"));
+            fs.Write(new UTF8Encoding(true).GetBytes("from " + list.Count.ToString()));
             return stat;
         }
 
@@ -166,44 +167,6 @@ namespace Clusters
                 }
             Console.WriteLine("Files had been readed. Triplets found:" + data.Count);
 
-        }
-
-        private static void trimData()
-        {
-            for (int i = 0; i < data.Count; i++)
-            {
-                var anotherPosition = maxIndexOf(data[i], i + 1);
-                while (anotherPosition > i)
-                {
-                    data.RemoveAt(anotherPosition);
-                    anotherPosition = data.LastIndexOf(data[i]);
-                    Console.WriteLine(data.Count);
-                }
-
-            }
-
-        }
-
-        private static int maxIndexOf(Triplet<Word> triplet, int from)
-        {
-            var threadCount = 8;
-            Task<int>[] tasks = new Task<int>[threadCount];
-            int step = (int)Math.Ceiling((double)(data.Count - from) / (double)threadCount);
-            for (int i = 0; i < threadCount; i++)
-            {
-                var coordinates = new Tuple<int, int>(from + i * step, step);
-                tasks[i] = Task<int>.Factory.StartNew((tuple) =>
-                {
-                    var size = ((Tuple<int, int>)tuple).Item1 + ((Tuple<int, int>)tuple).Item2;
-                    var count = size < data.Count ? ((Tuple<int, int>)tuple).Item2 : ((Tuple<int, int>)tuple).Item2 - (size - data.Count) - 1;
-                    return data.IndexOf(triplet, ((Tuple<int, int>)tuple).Item1, count);
-                }, coordinates);
-            }
-            Task.WaitAll(tasks);
-            var max = tasks[0].Result;
-            foreach (var task in tasks)
-                max = Math.Max(max, task.Result);
-            return max;
         }
     }
 }
